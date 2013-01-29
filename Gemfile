@@ -27,6 +27,8 @@ group :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'guard-rspec'
+  gem 'guard-migrate'
+  gem 'migration_test_helper'
 end
 
 group :test, :development do
