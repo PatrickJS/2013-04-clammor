@@ -1,9 +1,5 @@
 class Group < ActiveRecord::Base
-  attr_accessible :motto, :name
+  # TODO Implement Group associations. See group_spec.rb for specification.
 
-  has_many :subscriptions
-  has_many :users, :through => :subscriptions
-
-  validates :name, :uniqueness => true
-  validates :motto, :presence => true
+  # TODO Implement Group validations. See group_spec.rb for specification.
 end
