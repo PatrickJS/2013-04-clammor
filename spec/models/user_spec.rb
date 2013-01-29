@@ -11,5 +11,10 @@ describe User do
 
   # Simple associations
   it { should have_many(:posts) }
+  it { should have_many(:comments) }
   it { should have_one(:status) }
+
+  # More complex associations
+  it { should have_many(:subscriptions) }
+  it { should have_many(:groups).through(:subscriptions) }
 end

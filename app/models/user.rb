@@ -3,6 +3,11 @@ class User < ActiveRecord::Base
   has_one :status
   has_many :posts
 
+  has_many :subscriptions
+  has_many :groups, :through => :subscriptions
+
+  has_many :comments
+
   validates :name, :presence => true
   validates :email, :uniqueness => true, :format => { :with => /\w+@\w+\.(com|net|org)/ } 
 end

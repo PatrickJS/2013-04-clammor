@@ -25,7 +25,7 @@ group :test do
   gem 'shoulda'
   gem "factory_girl_rails", "~> 4.0"
   gem 'spork-rails'
-  gem 'guard-spork'
+  # gem 'guard-spork'
   gem 'guard-rspec'
   gem 'guard-migrate'
   gem 'migration_test_helper'
