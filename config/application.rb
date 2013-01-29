@@ -1,3 +1,5 @@
+# TODO Implement the pending tests in the spec folder. Run `bundle exec rake` to see which are pending.
+
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'

@@ -6400,3 +6400,445 @@ Connecting to database specified by database.yml
   [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
   [1m[36m (0.9ms)[0m  [1mDELETE FROM "users";[0m
   [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.5ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mGroup Exists (0.1ms)[0m  SELECT 1 AS one FROM "groups" WHERE "groups"."name" IS NULL LIMIT 1
+  [1m[36mGroup Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "groups" WHERE "groups"."name" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups" LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (46.9ms)[0m  INSERT INTO "groups" ("created_at", "motto", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 29 Jan 2013 20:04:52 UTC +00:00], ["motto", nil], ["name", "arbitrary_string"], ["updated_at", Tue, 29 Jan 2013 20:04:52 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mGroup Exists (0.1ms)[0m  SELECT 1 AS one FROM "groups" WHERE "groups"."name" = 'arbitrary_string' LIMIT 1
+  [1m[36mGroup Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "groups" WHERE "groups"."name" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.6ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["content", "Testing the model"], ["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["title", "Test"], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "Random comment"], ["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["post_id", nil], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "comments" SET "post_id" = 1, "updated_at" = '2013-01-29 20:04:53.069837' WHERE "comments"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "Random comment"], ["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["post_id", nil], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "comments" SET "post_id" = 1, "updated_at" = '2013-01-29 20:04:53.073868' WHERE "comments"."id" = 2[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("content", "created_at", "post_id", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "Random comment"], ["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["post_id", nil], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "comments" SET "post_id" = 1, "updated_at" = '2013-01-29 20:04:53.076212' WHERE "comments"."id" = 3[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" [0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = 1[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 1]]
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 2]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 3]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" [0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.7ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.3ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.5ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "comments";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'comments';
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "groups";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'groups';
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "posts";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "statuses";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'statuses';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM "subscriptions";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'subscriptions';
+  [1m[36m (0.9ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'test@alright.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["email", "test@alright.com"], ["name", "Jon Doe"], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "statuses" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)[0m  [["content", "I Just joined Clammor!"], ["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["user_id", nil]]
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = 1 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "statuses" SET "user_id" = 1, "updated_at" = '2013-01-29 20:04:53.246779' WHERE "statuses"."id" = 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE ("users"."email" = 'test@alright.com' AND "users"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "users" SET "name" = 'Jon Doe', "email" = 'test@alright.com', "created_at" = '2013-01-29 20:04:53.219860', "updated_at" = '2013-01-29 20:04:53.219860' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "comments";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'comments';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "groups";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'groups';[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'posts';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "statuses";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'statuses';[0m
+  [1m[35m (0.7ms)[0m  DELETE FROM "subscriptions";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'subscriptions';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'badEmail' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'badEmail' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "comments";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'comments';[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "groups";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'groups';[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'posts';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "statuses";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'statuses';[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "subscriptions";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'subscriptions';[0m
+  [1m[35m (0.7ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "comments";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'comments';[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM "groups";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'groups';[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'posts';[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "statuses";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'statuses';[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "subscriptions";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'subscriptions';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "comments";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'comments';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "groups";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'groups';[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'posts';[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "statuses";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'statuses';[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "subscriptions";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'subscriptions';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "users";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'good@email.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'good@email.com' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM "comments";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'comments';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "groups";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'groups';[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'posts';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "statuses";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'statuses';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "subscriptions";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'subscriptions';[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["email", "arbitrary_string"], ["name", nil], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "statuses" ("content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["content", "I Just joined Clammor!"], ["created_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["updated_at", Tue, 29 Jan 2013 20:04:53 UTC +00:00], ["user_id", nil]]
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "statuses" SET "user_id" = 1, "updated_at" = '2013-01-29 20:04:53.348815' WHERE "statuses"."id" = 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE ("users"."email" = 'arbitrary_string' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM "comments";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'comments';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "groups";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'groups';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'posts';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "statuses";
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'statuses';[0m
+  [1m[35m (0.7ms)[0m  DELETE FROM "subscriptions";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'subscriptions';[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m

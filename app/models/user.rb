@@ -14,6 +14,7 @@ class User < ActiveRecord::Base
   after_create :welcome_status
 
   def welcome_status
+    # TODO Should create a new Status after a user is created.  See user_spec.rb for more tips 
     self.status = Status.create({ :content => "I Just joined Clammor!"})
     self.save
   end
