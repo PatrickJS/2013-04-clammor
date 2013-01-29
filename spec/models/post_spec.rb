@@ -8,4 +8,9 @@ describe Post do
   # Simple associations
   it { should belong_to(:user) }
   it { should have_many(:comments) }
+
+  it "should destroy all associated comments when a Post is deleted" do
+    post = FactoryGirl.create(:post)
+    3.times { post.comments << FactoryGirl.create(:comment) }
+  end
 end
