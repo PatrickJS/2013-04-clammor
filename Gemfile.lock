@@ -121,6 +121,7 @@ GEM
       rspec-core (~> 2.12.0)
       rspec-expectations (~> 2.12.0)
       rspec-mocks (~> 2.12.0)
+    ruby_gntp (0.3.4)
     shoulda (3.3.2)
       shoulda-context (~> 1.0.1)
       shoulda-matchers (~> 1.4.1)
@@ -164,6 +165,7 @@ DEPENDENCIES
   rb-fsevent
   rb-readline
   rspec-rails (~> 2.0)
+  ruby_gntp
   shoulda
   spork-rails
   sqlite3
