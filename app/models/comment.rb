@@ -1,7 +1,7 @@
 class Comment < ActiveRecord::Base
-  # TODO Implement Comment associations. See comment_spec.rb for specification.
+  validates_presence_of :content
 
-
-  # TODO Implement Comment validations. See comment_spec.rb for specification.
+  belongs_to :post, :foreign_key => 'post_id'
+  belongs_to :user, :foreign_key => 'user_id'
 
 end
