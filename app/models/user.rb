@@ -1,17 +1,20 @@
 class User < ActiveRecord::Base
-  # TODO Implement validation for User model. See user_spec.rb for specification.
+  attr_accessible :name, :email
+
   validates_presence_of :name
   validates_uniqueness_of :email
+  validates_format_of :email, with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, on: :create
 
-  # TODO implement association for User model. See user_spec.rb for specification.
-    has_many :posts
-    has_many :comments
-    has_one :status
+  has_many :posts
+  has_many :comments
+  has_many :subscriptions
+  has_many :groups, through: :subscriptions
+  has_one :status, dependent: :destroy
 
-  # TODO Implement an after_create callback -- welcome_status
-    after_create :welcome_status
+  after_create :welcome_status
 
   def welcome_status
-    # TODO Should create a new Status after a user is created.  See user_spec.rb for more tips
+    new_status = Status.new(content: "I Just joined Clammor!")
+    self.status = new_status
   end
 end

@@ -25,8 +25,9 @@ describe User do
   end
 
   it "should delete the user's status if a user is deleted" do
-    # Implement a test that checks whether a User's status is deleted 
-    # when a User is destroyed see post_spec.rb for inspiration. 
-    pending
-  end 
+    user = User.create( name: 'Patrick', email: 'yolo@gdi2290.com')
+    expect { user.destroy }.to change { Status.all.length }.from(1).to(0)
+    # Implement a test that checks whether a User's status is deleted
+    # when a User is destroyed see post_spec.rb for inspiration.
+  end
 end
