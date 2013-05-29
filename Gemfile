@@ -37,3 +37,4 @@ group :test, :development do
 end
 
 #gem 'jquery-rails'
+gem 'validates_timeliness', '~> 3.0'

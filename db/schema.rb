@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130529002355) do
+ActiveRecord::Schema.define(:version => 20130529011618) do
 
   create_table "comments", :force => true do |t|
     t.integer  "post_id"
@@ -30,8 +30,18 @@ ActiveRecord::Schema.define(:version => 20130529002355) do
 
   add_index "groups", ["name"], :name => "index_groups_on_name", :unique => true
 
+  create_table "posts", :force => true do |t|
+    t.integer "user_id"
+    t.string  "title"
+    t.text    "content"
+  end
+
   create_table "subscriptions", :force => true do |t|
-    t.integer "group_id"
+    t.integer  "group_id"
+    t.integer  "user_id"
+    t.date     "renew_date"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

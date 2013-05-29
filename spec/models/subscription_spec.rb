@@ -6,14 +6,10 @@ describe Subscription do
   it { should allow_value(DateTime.now.to_s).for(:renew_date) }
 
   it "should belong to Group" do
-    # Implement a test that checks whether 
-    # Subscription belongs to Group
-    pending
-  end 
-  
+    should belong_to :group
+  end
+
   it "should belong to User" do
-    # Implement a test that checks whether 
-    # Subscription belongs to User
-    pending  
+    should belong_to :user
   end
 end
